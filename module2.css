@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-size: 30 px;
+      font-family: Georgia serif;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 30px;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+}
+
+p{
+    padding: 15px 5px 0px 5px;
+      font-family: Georgia sans-serif;
+      font-size: 16px;
+      position: relative;
+}
+.Salad{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FFB6C1;
+
+}
+
+div{
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.Juice{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #b6bdff;
+
+}
+.sushi{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #30a50c;
+
+}
+
+
+
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
